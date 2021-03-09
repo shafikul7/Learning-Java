@@ -11,6 +11,8 @@ public class Loop{
         
     }
 }
+
+
 import java.util.Scanner;  // Import the Scanner class
 public class Loop{
     public static void main(String[] args) {
@@ -41,6 +43,7 @@ public class Loop{
     }
 }
 
+
 import java.util.Scanner;  // Import the Scanner class
 public class Loop{
     public static void main(String[] args) throws InterruptedException {
@@ -56,6 +59,7 @@ public class Loop{
         System.out.println("Time count complit" );
     }
 }
+
 
 import java.util.*;
   // Import the Scanner class
@@ -85,4 +89,28 @@ public class Loop{
   }
 }
 
+import java.util.Scanner;  // Import the Scanner class
+public class Loop{
+    public static void main(String[] args) {
+        float number;
+        Scanner sc = new Scanner(System.in);
+        while(true){
+            System.out.println("Enter number");
+        number= sc.nextFloat();
+            if(number==999.0){
+                break;
+            }
+        String result;
+
+        if(number ==80){
+            result ="A+";
+        }else if(number == 70){
+            result ="A";
+        }else if(number == 60){
+            result ="A-";
+        }else{
+            result ="fail";
+        
+    }
+}
     
