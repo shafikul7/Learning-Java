@@ -19,6 +19,7 @@ public class Condition{
     public static void main(String[] args) {
         float number;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your Number");
         number= sc.nextFloat();
         String result;
 
@@ -31,7 +32,7 @@ public class Condition{
         }else{
             result ="fail";
         }
-        System.out.println("this is result : " + result);
+        System.out.println("result : " + result);
         
     }
 }
