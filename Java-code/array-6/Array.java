@@ -10,3 +10,18 @@ public class Array {
 
     }
 }
+
+public class Array {
+    public static void main(String[] args) {
+        
+     
+        String[] bootcampMembers = {"Shafikul ", "Rubel ", "Farjana ", "Arif "};
+       String target="target the message";
+        
+        for (int i = 0; i <bootcampMembers.length; i++) {
+            System.out.println(bootcampMembers[i] + target);
+        }
+
+    }
+}
+
