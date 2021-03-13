@@ -1,5 +1,8 @@
 package com.company;
 
+import java.util.Locale;
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -29,5 +32,17 @@ public class Main {
         System.out.println(middelName);
         String middelName1 =name.substring(2,6);
         System.out.println(middelName1);
+        
+        char [] names=name.toCharArray();
+        for(int i=0;i<names.length;i++){
+            System.out.println(names[i]);
+        }
+        System.out.println(name.toUpperCase());
+        System.out.println(name.toLowerCase(Locale.ROOT));
+        
+        String language = "java javascript kotlin php Ruby c C++";
+        String [] lan = language.split(" ");
+        System.out.println(Arrays.toString(lan));
+        System.out.println(lan[3]);
     }
 }
