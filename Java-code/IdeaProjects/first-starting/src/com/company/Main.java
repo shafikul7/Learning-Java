@@ -49,5 +49,20 @@ public class Main {
         StringTokenizer token = new StringTokenizer(language);
         while (token.hasMoreTokens()){
             System.out.println(token.nextToken());
+            
+         StringBuffer sb= new StringBuffer(language);
+        System.out.println(sb.capacity());
+       System.out.println(sb.length());
+
+        StringBuffer stringBuffer= new StringBuffer("");
+        stringBuffer.append("MD:");
+        stringBuffer.append("Shafikul ");
+        stringBuffer.append("islam");
+        System.out.println(stringBuffer);
+
+        StringBuffer sb2= new StringBuffer("java");
+        System.out.println(sb2.reverse());
+            
+         
     }
 }
