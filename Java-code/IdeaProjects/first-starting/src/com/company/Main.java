@@ -62,6 +62,16 @@ public class Main {
 
         StringBuffer sb2= new StringBuffer("java");
         System.out.println(sb2.reverse());
+            StringBuffer buffer= new StringBuffer();
+       String str ="Md.Shafikul islam ";
+       long startB=System.currentTimeMillis();
+       for(int i=0; i<10000; i++){
+           buffer.append(str);
+       }
+       long endB =System.currentTimeMillis();
+       System.out.println(endB - startB);
+        System.out.println(buffer);
+        System.out.println(endB - startB);
             
          
     }
