@@ -44,5 +44,10 @@ public class Main {
         String [] lan = language.split(" ");
         System.out.println(Arrays.toString(lan));
         System.out.println(lan[3]);
+        String language = "java javascript kotlin php Ruby c C++";
+
+        StringTokenizer token = new StringTokenizer(language);
+        while (token.hasMoreTokens()){
+            System.out.println(token.nextToken());
     }
 }
