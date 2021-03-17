@@ -49,7 +49,7 @@ public class Main {
         StringTokenizer token = new StringTokenizer(language);
         while (token.hasMoreTokens()){
             System.out.println(token.nextToken());
-            
+            //   StringBuffer
          StringBuffer sb= new StringBuffer(language);
         System.out.println(sb.capacity());
        System.out.println(sb.length());
