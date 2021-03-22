@@ -73,10 +73,7 @@ public class Main {
         System.out.println(buffer);
         System.out.println(endB - startB);
             
-         
-    }
-}
-    // Method Overloading in Java
+         // Method Overloading in Java
     
     class Adder{  
 static int add(int a,int b){return a+b;}  
@@ -87,3 +84,8 @@ public static void main(String[] args){
 System.out.println(Adder.add(11,11));  
 System.out.println(Adder.add(11,11,11));  
 }}  
+            
+         
+    }
+}
+    
