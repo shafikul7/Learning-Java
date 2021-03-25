@@ -201,6 +201,7 @@ public class PenDrive {
         System.out.println(summary);
 
         System.out.println("-------------------------------");
+        System.out.println("-------------------------------");
         System.out.println("Features");
         for(int i=0;i<featuresCount;i++){
             System.out.println((i+1)+".\t"+features[i]);
