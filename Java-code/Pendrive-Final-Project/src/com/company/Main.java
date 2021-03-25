@@ -20,6 +20,8 @@ public class Main {
         penDrive1.addFeature("Feature 1");
         penDrive1.addFeature("Feature 2");
         penDrive1.addFeature("Feature 3");
+        penDrive1.addFeature("Feature 4");
+        penDrive1.addFeature("Feature 5");
 
         //Add specifications
         penDrive1.addSpecification(new ProductSpecification("Capacity","128GB","key Features"));
