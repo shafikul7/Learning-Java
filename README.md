@@ -22,6 +22,7 @@ Note: `Ctrl-Shift-P` under `IdeaVim` in windows
 
   * `Ctrl-J` - shortcut to bring up a list of available live templates (only in insert mode in `IdeaVim`)
   * `Ctrl-Alt-T` - select text block and hit `Ctrl-Alt-T` to bring up `surround template` suggestions
+  * `Ctrl-J` - shortcut to bring up a list of available live templates (only in insert mode in `IdeaVim`)
 
 ## Comments
   * `Ctrl-/` or `Ctrl-Shift-/` - Comment/Uncomment current line or selection
